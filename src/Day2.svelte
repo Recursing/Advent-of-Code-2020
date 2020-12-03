@@ -1,6 +1,4 @@
 <script lang="ts">
-    import { missing_component } from "svelte/internal";
-
     import Input from "./Input.svelte";
     let input = [""];
     let part1 = 0;

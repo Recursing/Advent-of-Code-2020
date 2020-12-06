@@ -1,6 +1,6 @@
 import re
 
-inputs = "i".split("\n\n")
+inputs = open("day4.txt").read().split("\n\n")
 parsed = [i.split() for i in inputs]
 fields = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
 parsed = [{v.split(":")[0]: v.split(":")[1] for v in p} for p in parsed]
